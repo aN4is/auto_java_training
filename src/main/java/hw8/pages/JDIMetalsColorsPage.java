@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static hw8.entities.MetalsColorsFormData.listToStringWithoutBrackets;
+import static hw8.utils.Utils.listToStringWithoutBrackets;
 import static org.testng.Assert.assertEquals;
 
 public class JDIMetalsColorsPage extends WebPage {
@@ -22,9 +22,6 @@ public class JDIMetalsColorsPage extends WebPage {
 
     public MetalsColorsForm form;
     ResultText result;
-
-
-
 
 
     public void checkResult(MetalsColorsFormData data) {
